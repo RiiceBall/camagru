@@ -1,0 +1,44 @@
+#manageu {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+*:focus {
+    outline: none;
+}
+
+#manageu div {
+    width: 750px;
+    margin-left: 10vw;
+    padding: 0px;
+}
+
+#manageu label {
+    width: 150px;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+#manageu input[type="text"] , #manageu input[type="password"], #manageu input[type="email"] {
+    border-radius: 5px;
+    height: 20px;
+    width: 220px;
+}
+
+#manageu input[type="submit"] {
+    margin-left: 160px;
+    width: 40px;
+}
+
+.readonly {
+    background-color: #f4f4f1;
+}
+
+#message_receive_mail {
+    color: green;
+}
+
+.message_manage {
+    margin-left: 160px;
+}

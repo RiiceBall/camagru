@@ -1,0 +1,155 @@
+#webcam_section {
+	min-width: 700px;
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+section, aside {
+	margin-top: 100px;
+	margin-bottom: 5px;
+	height: 810px;
+	position: relative;
+	display: block;
+}
+
+section {
+	float: left;
+	width: 74%;
+}
+
+aside {
+	border-style: solid;
+	border-image: -webkit-linear-gradient(#f5af19, #f12711) 1;
+	border-image: -moz-linear-gradient(#f5af19, #f12711) 1;
+	border-image: linear-gradient(#f5af19, #f12711) 1;
+	float: right;
+	width: 23%;
+	overflow: auto;
+	max-width: 250px;
+}
+
+aside img {
+	margin-top: 5px;
+}
+
+#message_to_user {
+	margin: 0;
+	color: #f5af19;
+	font-size: 20px;
+}
+
+#side_title {
+	margin: 0;
+	display: block;
+	text-decoration: underline;
+	font-size: 25px;
+	color: #f5af19;
+}
+
+#img_sup {
+	height: 120px;
+	width: 98%;
+	margin: 0 auto;
+	clear: both;
+	overflow-y: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+#div_video {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	display: block;
+	margin: 10px auto 0 auto;
+	border: solid;
+}
+
+#img_sup img, #side img, #old_picture img {
+	width: 133px;
+	height: 100px;
+}
+
+#img_video {
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 1;
+}
+
+#video, #no_video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: none;
+	width: 400px;
+	height: 300px;
+}
+
+#no_video, #img_video {
+	display: none;
+}
+
+#tack {
+	pointer-events: none;
+}
+
+#tack, #upload {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+#canvas {
+	display: block;
+	margin: 10px auto;
+	border: solid;
+	width: 400px;
+	height: 300px;
+}
+
+#old_picture {
+	border-style: solid;
+	border-image: -webkit-linear-gradient(to right, #f5af19, #f12711) 1;
+	border-image: -moz-linear-gradient(to right, #f5af19, #f12711) 1;
+	border-image: linear-gradient(to right, #f5af19, #f12711) 1;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	height: 120px;
+	clear: both;
+	overflow-y: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+#old_picture div {
+	margin-top: 7px;
+	display: inline-block;
+	margin-left: 5px;
+	position: relative;
+}
+
+#old_picture span {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+
+#old_picture span img {
+	width: 12px;
+	height: 12px;
+}
+
+#old_picture span:hover {
+	cursor: pointer;
+	background-color: white;
+}
+
+.no_picture {
+    font-size: 35px;
+    text-align: center;
+    color: #e64d00;
+}

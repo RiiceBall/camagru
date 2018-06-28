@@ -1,0 +1,36 @@
+*:focus {
+    outline: none;
+}
+
+#change_pass, #forgot_form {
+    margin-top: 40vh;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#change_pass label, #formule label, #forgot_form label {
+    width: 150px;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+#change_pass input[type="password"], #forgot_form input[type="text"] , #forgot_form input[type="email"],
+#formule input[type="text"] , #formule input[type="password"], #formule input[type="email"] {
+    border-radius: 5px;
+    height: 22px;
+    width: 220px;
+}
+
+#change_pass input[type="submit"], #forgot_form input[type="submit"] {
+    margin-left: 160px;
+    width: 40px;
+}
+
+#formule input[type="submit"] {
+    margin-left: 160px;
+}
+
+.error_message {
+    margin-left: 160px;
+}

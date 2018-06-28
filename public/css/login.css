@@ -1,0 +1,28 @@
+#formule {
+	min-width: 770px;
+	padding-top: 100px;
+	height: 800px;
+	text-align: center;
+}
+
+#sform, #rform {
+	height: 415px;
+	width: 49.5%;
+	display: inline-block;
+	margin: 1% 0 1% 0;
+	padding-top: 350px;
+}
+
+#sform {
+	float: left;
+}
+
+#rform {
+	float: right;
+}
+
+#formule hr {
+	width: 0px;
+	float: left;
+	height: 100%;
+}

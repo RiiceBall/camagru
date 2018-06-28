@@ -1,0 +1,63 @@
+#center_commentaire {
+    margin: 100px auto;
+    text-align: center;
+    min-width: 400px;
+    max-width: 1200px;
+}
+
+#comment_picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#icone_like {
+    width: 20px;
+    height: 20px;
+}
+
+#like_zone {
+    width: 400px;
+    display: block;
+    margin-top: -6px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn_delete {
+    position: absolute;
+    right: 0;
+    color: #e64d00;
+}
+
+#comment_text {
+    width: 400px;
+    height: 80px;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+#send_comment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#user_comment span {
+    display: inline-block;
+    width: 700px;
+}
+
+#author img {
+    width: 20px;
+    height: 20px;
+}
+
+#author {
+    font-size: 25px;
+}
+
+* {
+    outline: none;
+}
