@@ -1,6 +1,6 @@
 # Camagru
 
-Camagru is a first web project, you can take photos with the existing images, you can also see, comment, like, other people's photos.
+Camagru is a first school web project, you can take photos with the existing images, you can also see, comment, like, other people's photos.
 
 ### How to use it in local ?
 
